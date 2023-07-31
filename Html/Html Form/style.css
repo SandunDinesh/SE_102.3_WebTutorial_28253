@@ -1,0 +1,7 @@
+.space{
+    padding: 100px;
+    justify-items: center;
+}
+.space input{
+    margin: 2px;
+}

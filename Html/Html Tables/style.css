@@ -1,0 +1,44 @@
+table {
+
+    width: 100%;
+    border: 2px double black;
+  }
+
+  th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .red-bg{
+    color: red;
+  }
+
+  .red-b{
+    color: blue;
+  }
+
+  .blue-bg {
+    background-color: blue;
+  }
+
+  .green-bg {
+    color: green;
+  }
+  .ss{
+    padding: 100px;
+
+  }
+  .bg-w{
+    background-color: white;
+    color: black;
+  }
+
+  .tb{
+    background-color: yellow;
+  }
+  .time{
+    background-color: gray;
+    padding: 40px;
+    margin-top: 30px;
+  }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container space">
+        <div class="row">
+            <div class="col-lg" style="margin-bottom: 20px;">
+                <div class="card " style="padding: 50px; width: 40rem;">
+                    <h2>Registration Froms</h2>
+                    <br>
+                    <form action="#" method="post">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" name="first-name" required><br>
+
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" name="last-name" required><br>
+
+                        <label for="mobile-number">Mobile Number:</label>
+                        <input type="tel" name="mobile-number" required><br>
+
+                        <label>Gender:</label>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="male" required>
+
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" value="female" required><br>
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" required><br>
+
+                        <label>Favorite Music:</label>
+                        <label for="pop">Pop</label>
+                        <input type="radio" name="favorite-music" value="pop" required>
+
+                        <label for="rock">Rock</label>
+                        <input type="radio" name="favorite-music" value="rock" required>
+
+                        <label for="other">Other</label>
+                        <input type="radio" name="favorite-music" value="other" required><br>
+
+                        <label for="additional-details">Additional Details:</label><br>
+                        <textarea id="additional-details" name="additional-details" rows="4" cols="50"></textarea><br>
+
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the terms and condition</label><br>
+
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="card " style="padding: 50px; width: 40rem;"><br>
+                    <fieldset form="mygeeks">
+                        <legend>
+                            <h2> Car Registration Froms</h2>
+                        </legend>
+                        <label for="first-name">Owner Name:</label>
+                        <input type="text" name="first-name" required><br>
+
+                        <label for="last-name">Email:</label>
+                        <input type="text" name="last-name" required><br>
+
+                        <label for="mobile-number">Mobile Number:</label>
+                        <input type="tel" name="mobile-number" required><br>
+                        <label for="com">Country</label>
+                        <select id="com" name="music-genre">
+                            <option value="usa">USA</option>
+                            <option value="SL">Srilanka</option>
+                            <option value="country">Country</option>
+                        </select><br>
+
+                        <label>Transmission:</label>
+                        <label for="male">Manual</label>
+                        <input type="radio" name="gender" value="male" required>
+
+                        <label for="female">Auto</label>
+                        <input type="radio" name="gender" value="female" required><br>
+                        <label for="com">Manufactr</label>
+                        <select id="com" name="music-genre">
+                            <option value="usa">2002</option>
+                            <option value="SL">1991</option>
+                            <option value="country">Country</option>
+                        </select><br>
+
+                        <label for="additional-details">Additional Details:</label><br>
+                        <textarea id="additional-details" name="additional-details" rows="4" cols="50"></textarea><br>
+
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the terms and condition</label><br>
+
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+
+                    </fieldset>
+                    <form action="#" method="post">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

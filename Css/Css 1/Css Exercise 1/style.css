@@ -1,0 +1,14 @@
+.back_img {
+  background-image: url(darkyback.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.card transparent {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.center {
+  justify-content: center;
+}

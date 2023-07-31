@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+
+}
+
+li:active {
+  background-color: blueviolet;
+}
+
+li:hover {
+  background-color: aqua;
+
+}
+
+.tag:active {
+  background-color: blueviolet;
+}
+
+.tag:focus {
+  background-color: blueviolet;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(51, 51, 51);
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+
+}
+
+.tips {
+  background-image: url("darkyback.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px;
+
+
+
+
+
+}
+
+
+.sec1 {
+
+  margin: 100;
+}
+
+
+.card1 {
+  box-shadow: black;
+
+}
+.card-body:hover{
+  box-shadow: rgb(221, 0, 0);
+}
+
+.head1 {
+  margin: 20;
+  font-weight: bold;
+  color: blue;
+
+}
